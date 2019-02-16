@@ -2,7 +2,9 @@
 
 # dependencies
 bundleapp/node_modules
+
 bundleserver/node_modules
+
 /.pnp
 .pnp.js
 

@@ -1,0 +1,33 @@
+{
+    "bundles": [
+        {
+            "bundle": {
+                "id": 0,
+                "products": [0, 1, 2],
+                "img": "https://images.unsplash.com/photo-1534412027333-5e25ba9074f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2041&q=80",
+                "description": "This is a bundle design for artist who are starting out!",
+                "description_more": "This bundle includes many products that I use to this day. I've included [brand] as they are the......",
+                "is_popular": true    
+            }
+            
+        },{
+            "bundle": {
+                "id": 1,
+                "products": [0, 1],
+                "img": "https://images.unsplash.com/photo-1534412027333-5e25ba9074f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2041&q=80",
+                "description": "This is a bundle design for artist who are starting out!",
+                "description_more": "This bundle includes many products that I use to this day. I've included [brand] as they are the......",
+                "is_popular": false    
+            }
+        },{
+            "bundle": {
+                "id": 2,
+                "products": [2],
+                "img": "https://images.unsplash.com/photo-1534412027333-5e25ba9074f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2041&q=80",
+                "description": "This is a bundle design for artist who are starting out!",
+                "description_more": "This bundle includes many products that I use to this day. I've included [brand] as they are the......",
+                "is_popular": true    
+            }
+        }
+    ]
+}

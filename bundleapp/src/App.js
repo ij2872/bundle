@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Bundle } from './Components';
 import Home from './Components/Home'
 import Product from './Components/Product'
+import hamburgerMenu from './img/svg/hamburger-menu.svg'
 
 const routing = (
   <Router>
@@ -21,6 +22,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="nav">
+          <img src={hamburgerMenu} />
+        </div>
         {routing}
       </div>
     );

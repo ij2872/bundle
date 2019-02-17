@@ -24,9 +24,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="nav">
+        {/* <div className="nav">
           <img src={hamburgerMenu} />
-        </div>
+        </div> */}
         {routing}
       </div>
     );

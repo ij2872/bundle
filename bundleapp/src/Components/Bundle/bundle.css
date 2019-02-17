@@ -19,7 +19,7 @@
     background-size: contain; 
     object-fit: contain;
     background: white;
-    box-shadow: 0px 5px 4px rgb(238, 238, 238);
+    /* box-shadow: 0px 5px 4px rgb(238, 238, 238); */
     transition: transform .4s;
     /* object-position: -20px; */
 
@@ -63,6 +63,7 @@
 .bundle-info-products > div{
     text-align: left;
     padding: 2px;
+    margin-right: 10px;
     /* margin-right: 2px; */
     /* border: solid red 2px; */
     /* min-width: ; */

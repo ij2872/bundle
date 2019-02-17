@@ -87,6 +87,32 @@
                 "description_more": "This bundle includes many products that I use to this day. I've included [brand] as they are the......",
                 "is_popular": true    
             }
+        },{
+            "bundle": {
+                "id": 3,
+                "title": "Kids Health",
+                "products": [
+                    {
+                        "name": "Protective Hard Shell Diabetic Travel Case",
+                        "ASID": "B07M98MKLJ",
+                        "link": "https://www.amazon.com/Protective-Diabetic-Supplies-Organizer-Monitoring/dp/B07M98MKLJ/ref=sr_1_2?crid=2LZ37Z6IOQIIW&keywords=kids+blood+sugar+monitor&qid=1550420791&s=gateway&sprefix=kid+blood+sugar%2Caps%2C153&sr=8-2"
+                    },
+                    {
+                        "name": "Diabetes Testing Kit",
+                        "ASID": "B076VSN7TR",
+                        "link": "https://www.amazon.com/Care-Touch-Diabetes-Testing-Kit/dp/B076VSN7TR/ref=sr_1_5?keywords=Glucose+Meter&qid=1550421045&s=gateway&sr=8-5"
+                    },
+                    {
+                        "name": "Diabetes Cook Book",
+                        "ASID": "0778801160",
+                        "link": "https://www.amazon.com/Americas-Best-Cookbook-Kids-Diabetes/dp/0778801160/ref=sr_1_3?crid=1EQVCR8QXCJ6K&keywords=kids+with+diabetes+book&qid=1550421103&s=gateway&sprefix=kid+with+dia%2Caps%2C162&sr=8-3"
+                    }
+                ],
+                "img": "https://images-na.ssl-images-amazon.com/images/I/51NT41B4Z2L._SX351_BO1,204,203,200_.jpg",
+                "description": "This is a bundle design for artist who are starting out!",
+                "description_more": "This bundle includes many products that I use to this day. I've included [brand] as they are the......",
+                "is_popular": true    
+            }
         }
     ]
 }

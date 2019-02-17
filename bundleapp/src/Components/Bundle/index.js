@@ -34,7 +34,7 @@ class Bundle extends Component {
               <div>Furr Wolfe Pro Pencil</div>
               <div>Zebra 3b</div>
             </div>
-            <div className="bundle-info-buttons">{this.props.children}</div>
+            <div className="bundle-info-buttons"></div>
           </div>
 
         </div>

@@ -1,13 +1,12 @@
 import React from 'react';
-
+import { Link } from "react-router-dom"
 
 const Home = (props) => {
     return (
         <div>
-            <p>Stuff to display</p>
+            <h1>Bundle</h1>
+            <Link to="/bundle">Potato</Link>
         </div>
-
-
     );
 }
 

@@ -3,15 +3,17 @@ import ReactDOM from 'react-dom'
 // import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Bundle } from './Components';
+import BundlePage  from './Components/BundlePage';
 import Home from './Components/Home'
+// import Bundle from './Components/Bundle'
 import Product from './Components/Product'
 
 const routing = (
   <Router>
+    
     <div>
       <Route exact path="/" component={Home} />
-      <Route path="/bundle" component={Bundle} />
+      <Route path="/bundles" component={BundlePage} />
       <Route path="/product" component={Product} />
     </div>
   </Router>

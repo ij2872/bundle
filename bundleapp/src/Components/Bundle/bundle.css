@@ -1,0 +1,76 @@
+
+
+
+
+.bundle-info-container{
+    /* border: solid red 2px; */
+    padding: 20px;
+    display: flex;
+
+}
+
+.bundle-info-img{
+    width: 375px;
+    height: 375px;
+    background: black;
+}
+
+.bundle-info-about{
+    
+    /* border: solid red 2px; */
+    padding: 0 60px;
+    padding-left: 5vw;
+    width: 40vw;
+}
+.bundle-info-title{
+    margin-top: 0;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+.bundle-info-author{
+    font-weight: 500;
+    color: rgb(83, 83, 83);
+    margin: 0;
+    margin-bottom: 32px;
+}
+.bundle-info-products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    /* border: solid red 2px; */
+    padding: 10px;
+    padding-left: 0;
+    max-width: 350px;
+}
+.bundle-info-products > div{
+    text-align: left;
+    /* min-width: ; */
+    margin-bottom: 10px;
+}
+
+
+.bundle-info-buttons{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    /* border: solid red 2px; */
+}
+
+.bundle-info-buttons > button{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    min-width: 185px;
+    margin-top: 20px;
+}
+.bundle-info-buttons > button:active{
+   box-shadow: 0px 0px 5px black;
+}
+.bundle-info-buttons > button:focus{
+    outline: 0;
+}

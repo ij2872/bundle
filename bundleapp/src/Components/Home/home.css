@@ -59,18 +59,34 @@ header {
 
 .landing-body {
     font-family: "Cabin", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     letter-spacing: 1px;
     line-height: 2.7rem;
 }
 
+.explanation-text-container {
+    margin-bottom: 5rem;
+}
+
 .explanation-container {
+    height: auto;
     display: flex;
 }
 
 .explanation-item {
     display: flex;
     flex-direction: column;
+    align-content: space-around;
+    justify-content: start;
+    margin: 2rem 3rem;
+}
+
+.explanation-item img {
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.footer {
+    display: flex;
     justify-content: center;
-    align-items: center;
 }

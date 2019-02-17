@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
-import heroIllustration from '../../img/svg/hero-illustration.svg'
-import oneSVG from '../../img/svg/one.svg'
-import twoSVG from '../../img/svg/two.svg'
-import threeSVG from '../../img/svg/three.svg'
-import oneIllustration from '../../img/svg/one-illustration.svg'
-import twoIllustration from '../../img/svg/two-illustration.svg'
-import threeIllustration from '../../img/svg/three-illustration.svg'
+import heroIllustration from "../../img/svg/hero-illustration.svg";
+import oneSVG from "../../img/svg/one.svg";
+import twoSVG from "../../img/svg/two.svg";
+import threeSVG from "../../img/svg/three.svg";
+import oneIllustration from "../../img/svg/one-illustration.svg";
+import twoIllustration from "../../img/svg/two-illustration.svg";
+import threeIllustration from "../../img/svg/three-illustration.svg";
 
 const Home = props => {
   return (
@@ -19,14 +19,16 @@ const Home = props => {
             your setup, your bundle, <span>all in one click</span>
           </p>
           <div className="btn-go">
-            <Link to="/bundles" className="btn-text">get started</Link>
+            <Link to="/bundles" className="btn-text">
+              get started
+            </Link>
           </div>
         </div>
         <div className="hero-image">
-            <img src={heroIllustration} />
+          <img src={heroIllustration} />
         </div>
       </header>
-      <section>
+      <section className="explanation-text-container">
         <h2 className="landing-header-2">A Solution to Buying Setups</h2>
         <p className="landing-body">
           Constant frustration comes from setting up a work or hobbyist
@@ -57,7 +59,13 @@ const Home = props => {
           </div>
         </div>
       </section>
-      <Link to="/bundles" className="btn-go">get started</Link>
+      <div className="footer">
+      <div className="btn-go">
+            <Link to="/bundles" className="btn-text">
+              get started
+            </Link>
+          </div>
+      </div>
     </div>
   );
 };

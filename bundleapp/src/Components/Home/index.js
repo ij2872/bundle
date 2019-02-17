@@ -13,20 +13,22 @@ const Home = props => {
   return (
     <div>
       <header>
-        <div>
-          <h1>Bundle</h1>
-          <p>
+        <div className="hero-container">
+          <h1 className="hero-text">Bundle</h1>
+          <p className="landing-body landing-body-text">
             your setup, your bundle, <span>all in one click</span>
           </p>
-          <button>get started</button>
+          <div className="btn-go">
+            <Link to="/bundles" className="btn-text">get started</Link>
+          </div>
         </div>
-        <div>
+        <div className="hero-image">
             <img src={heroIllustration} />
         </div>
       </header>
       <section>
-        <h2>A Solution to Buying Setups</h2>
-        <p>
+        <h2 className="landing-header-2">A Solution to Buying Setups</h2>
+        <p className="landing-body">
           Constant frustration comes from setting up a work or hobbyist
           environment. Never struggle shopping for these individual items on
           Amazon anymore with Bundle. We offer an innovative solution allowing
@@ -39,23 +41,23 @@ const Home = props => {
         </p>
       </section>
       <section>
-        <h2>Getting Started</h2>
-        <div>
-          <div>
+        <h2 className="landing-header-2">Getting Started</h2>
+        <div className="explanation-container">
+          <div className="explanation-item">
             <img src={oneSVG} />
             <img src={oneIllustration} />
           </div>
-          <div>
+          <div className="explanation-item">
             <img src={twoSVG} />
             <img src={twoIllustration} />
           </div>
+          <div className="explanation-item">
             <img src={threeSVG} />
             <img src={threeIllustration} />
-          <div>
           </div>
         </div>
       </section>
-      <Link to="/bundle">Potato</Link>
+      <Link to="/bundles" className="btn-go">get started</Link>
     </div>
   );
 };

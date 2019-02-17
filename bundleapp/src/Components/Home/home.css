@@ -19,12 +19,14 @@ header {
     font-family: "Archivo", sans-serif;
     font-size: 10rem;
     margin-bottom: 1rem;
+    color: #73161F;
 }
 
 .landing-body-text {
     position: relative;
     left: 1rem;
     margin-bottom: 9rem;
+    color: #73161F;
 }
 
 .btn-go {
@@ -44,7 +46,7 @@ header {
     font-family: "Cabin", sans-serif;
     font-size: 1.8rem;
     text-decoration: none;
-    color: rgba(0, 0, 0, .5);
+    color: #FFFCF5;
 }
 
 .hero-image {

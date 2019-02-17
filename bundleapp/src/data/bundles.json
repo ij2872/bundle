@@ -1,0 +1,92 @@
+{
+    "bundles": [
+        {
+            "bundle": {
+                "id": 0,
+                "title": "Recording Essentials",
+                "author": "Ivan Jaimes",
+                "products": [
+                    {
+                        "name": "Scarlett Solo",
+                        "ASID": "B01E6T56CM",
+                        "link": "https://www.amazon.com/Focusrite-Scarlett-Audio-Interface-Tools/dp/B01E6T56CM/ref=sr_1_13?keywords=scarlett+solo&qid=1550394358&s=gateway&sr=8-13"
+                    },
+                    {
+                        "name": "Shure SM7B",
+                        "ASID": "B0002E4Z8M",
+                        "link": "https://www.amazon.com/Shure-SM7B-Dynamic-Microphone-Cardioid/dp/B0002E4Z8M/ref=sr_1_6?keywords=sm57&qid=1550394595&s=gateway&sr=8-6"
+                    },
+                    {
+                        "name": "Mic Stand",
+                        "ASID": "B019NY2PKG",
+                        "link": "https://www.amazon.com/AmazonBasics-Tripod-Boom-Microphone-Stand/dp/B019NY2PKG/ref=sr_1_5?keywords=mic+stand&qid=1550394665&s=gateway&sr=8-5"
+                    },
+                    {
+                        "name": "XLR Cable",
+                        "ASID": "B01JNLTTKS",
+                        "link": "https://www.amazon.com/AmazonBasics-Male-Female-Microphone-Cable/dp/B01JNLTTKS/ref=sr_1_16?keywords=xlr+cable&qid=1550394701&s=gateway&sr=8-16"
+                    }
+                ],
+                "img": "https://media.sweetwater.com/api/i/f-webp__q-82__ha-8e131e3018366f2b__hmac-c37b4e42aeaa3b2b2781dc3e72f7612ed82b4d9a/images/items/750/ScarlettSoloG2-large.jpg.auto.webp",
+                "description": "This is a bundle design for artist who are starting out!",
+                "description_more": "This bundle includes many products that I use to this day. I've included [brand] as they are the......",
+                "is_popular": true    
+            }
+            
+        },{
+            "bundle": {
+                "id": 1,
+                "title": "Weight Loss Bundle",
+                "author": "Joe Beffore",
+                "products": [
+                    {
+                        "name": "Blend Bottle",
+                        "ASID": "B00MVMCUK8",
+                        "link": "https://www.amazon.com/BlenderBottle-Classic-Shaker-Bottle-28-Ounce/dp/B00MVMCUK8/ref=sr_1_5?keywords=blender+bottle&qid=1550394762&s=gateway&sr=8-5"
+                    },
+                    {
+                        "name": "IsoPure Protein",
+                        "ASID": "B000E95HP0",
+                        "link": "https://www.amazon.com/Isopure-Protein-Powder-Isolate-Flavor/dp/B000E95HP0/ref=sr_1_11?keywords=protein+powder&qid=1550394910&s=gateway&sr=8-11"
+                    },
+                    {
+                        "name": "Creatine",
+                        "ASID": "B002DYIZEO",
+                        "link": "https://www.amazon.com/NUTRITION-Micronized-Creatine-Monohydrate-Unflavored/dp/B002DYIZEO/ref=sr_1_5?crid=1S382TW718C21&keywords=creatine+powder&qid=1550395000&s=gateway&sprefix=cret%2Caps%2C164&sr=8-5"
+                    }
+                ],
+                "img": "https://images-na.ssl-images-amazon.com/images/I/61mgcV%2BkDJL._SL1500_.jpg",
+                "description": "This is a bundle design for artist who are starting out!",
+                "description_more": "This bundle includes many products that I use to this day. I've included [brand] as they are the......",
+                "is_popular": false    
+            }
+        },{
+            "bundle": {
+                "id": 2,
+                "title": "My Art Bundle",
+                "author": "Famous Person",
+                "products": [
+                    {
+                        "name": "Dual Brush Pens",
+                        "ASID": "B0044JOS6K",
+                        "link": "https://www.amazon.com/Tombow-Markers-Grayscale-10-Pack-Blendable/dp/B0044JOS6K/ref=sr_1_10?keywords=art+pens&qid=1550395156&s=gateway&sr=8-10"
+                    },
+                    {
+                        "name": "Pencil case",
+                        "ASID": "B06XXZ7GNW",
+                        "link": "https://www.amazon.com/Pencil-Coofit-Holder-Cosmetic-Pouch/dp/B06XXZ7GNW/ref=sr_1_8?keywords=pen+bag&qid=1550395223&s=gateway&sr=8-8"
+                    },
+                    {
+                        "name": "Muji Notebooks",
+                        "ASID": "B00I6Y0MH8",
+                        "link": "https://www.amazon.com/MUJI-Notebook-6mm-Rule-30sheets/dp/B00I6Y0MH8/ref=sr_1_5?keywords=muji+notebooks&qid=1550395298&s=gateway&sr=8-5"
+                    }
+                ],
+                "img": "https://images-na.ssl-images-amazon.com/images/I/719%2BjQN37JL._SX679_.jpg",
+                "description": "This is a bundle design for artist who are starting out!",
+                "description_more": "This bundle includes many products that I use to this day. I've included [brand] as they are the......",
+                "is_popular": true    
+            }
+        }
+    ]
+}

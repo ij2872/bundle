@@ -13,13 +13,30 @@ class Bundle extends Component {
     }
 
 
+    createSendToAmazon(asIDs){
+      let url = "https://www.amazon.com/gp/aws/cart/add.html?"
+
+      let index = 1;
+      asIDs.forEach(element => {
+        let ASIN = "ASIN."+index+"=" + element +"&Quantity."+index+"=1&";
+        url += ASIN;
+        index++;
+      });
+
+      return url;
+    }
+
+
   render() {
     // Render products
     let prods = [];
+    let ASIDS = [];
+    let amazonLink = "";
     for(let i=0; i<this.props.products.length; i++){
+      ASIDS.push(this.props.products[i].ASID);
       prods.push(<div>{this.props.products[i].name}</div>);
     }
-
+    amazonLink = this.createSendToAmazon(ASIDS);
     return (
       <div className="Bundle">
         <div className="bundle-info-container">
@@ -42,8 +59,8 @@ class Bundle extends Component {
               <div>Zebra 3b</div> */}
             </div>
             <div className="bundle-info-buttons">
-              <button className="bundle-info-buy"><img src={buySVG}></img>Buy</button>
-              <button className="bundle-info-info"><img src={starSVG}></img>Info</button>
+              <a href={amazonLink} className="bundle-info-buy"><img src={buySVG}></img>Buy</a>
+              <a href="#" className="bundle-info-info"><img src={starSVG}></img>Info</a>
             </div>
           </div>
 

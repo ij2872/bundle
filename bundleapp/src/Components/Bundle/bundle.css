@@ -17,7 +17,15 @@
     width: 375px;
     max-height: 375px;
     background-size: contain; 
-    background: black;
+    object-fit: contain;
+    background: white;
+    box-shadow: 0px 5px 4px rgb(238, 238, 238);
+    transition: transform .4s;
+    /* object-position: -20px; */
+
+}
+.bundle-info-img:hover{
+    transform: scale(1.02);
 }
 
 .bundle-info-about{
@@ -68,33 +76,37 @@
     padding: 20px;
     justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 350px;    
+    max-width: 400px;    
     font-style: 'Cabin' sans-serif;
     /* border: solid red 2px; */
 }
 
-.bundle-info-buttons > button{
+.bundle-info-buttons > a{
+    text-decoration: none;
     
     padding: 15px 25px;
     border: none;
     border-radius: 20px;
     font-weight: bolder;
     font-size: 1.3rem;
-    min-width: 135px;
+    min-width: 130px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.bundle-info-buttons > a::hover{
+    cursor: pointer;
+}
 
-.bundle-info-buttons > button > img{
+.bundle-info-buttons > a > img{
     margin-right: 5px;
 
 }
-.bundle-info-buttons > button:active{
+.bundle-info-buttons > a:active{
    box-shadow: 0px 0px 5px black;
 }
-.bundle-info-buttons > button:focus{
+.bundle-info-buttons > a:focus{
     outline: 0;
 }
 

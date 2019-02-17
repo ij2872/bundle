@@ -8,22 +8,26 @@
                 "products": [
                     {
                         "name": "Scarlett Solo",
+                        "ASID": "B01E6T56CM",
                         "link": "https://www.amazon.com/Focusrite-Scarlett-Audio-Interface-Tools/dp/B01E6T56CM/ref=sr_1_13?keywords=scarlett+solo&qid=1550394358&s=gateway&sr=8-13"
                     },
                     {
                         "name": "Shure SM7B",
+                        "ASID": "B0002E4Z8M",
                         "link": "https://www.amazon.com/Shure-SM7B-Dynamic-Microphone-Cardioid/dp/B0002E4Z8M/ref=sr_1_6?keywords=sm57&qid=1550394595&s=gateway&sr=8-6"
                     },
                     {
                         "name": "Mic Stand",
+                        "ASID": "B019NY2PKG",
                         "link": "https://www.amazon.com/AmazonBasics-Tripod-Boom-Microphone-Stand/dp/B019NY2PKG/ref=sr_1_5?keywords=mic+stand&qid=1550394665&s=gateway&sr=8-5"
                     },
                     {
                         "name": "XLR Cable",
+                        "ASID": "B01JNLTTKS",
                         "link": "https://www.amazon.com/AmazonBasics-Male-Female-Microphone-Cable/dp/B01JNLTTKS/ref=sr_1_16?keywords=xlr+cable&qid=1550394701&s=gateway&sr=8-16"
                     }
                 ],
-                "img": "data:image/webp;base64,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",
+                "img": "https://media.sweetwater.com/api/i/f-webp__q-82__ha-8e131e3018366f2b__hmac-c37b4e42aeaa3b2b2781dc3e72f7612ed82b4d9a/images/items/750/ScarlettSoloG2-large.jpg.auto.webp",
                 "description": "This is a bundle design for artist who are starting out!",
                 "description_more": "This bundle includes many products that I use to this day. I've included [brand] as they are the......",
                 "is_popular": true    
@@ -37,14 +41,17 @@
                 "products": [
                     {
                         "name": "Blend Bottle",
+                        "ASID": "B00MVMCUK8",
                         "link": "https://www.amazon.com/BlenderBottle-Classic-Shaker-Bottle-28-Ounce/dp/B00MVMCUK8/ref=sr_1_5?keywords=blender+bottle&qid=1550394762&s=gateway&sr=8-5"
                     },
                     {
                         "name": "IsoPure Protein",
+                        "ASID": "B000E95HP0",
                         "link": "https://www.amazon.com/Isopure-Protein-Powder-Isolate-Flavor/dp/B000E95HP0/ref=sr_1_11?keywords=protein+powder&qid=1550394910&s=gateway&sr=8-11"
                     },
                     {
                         "name": "Creatine",
+                        "ASID": "B002DYIZEO",
                         "link": "https://www.amazon.com/NUTRITION-Micronized-Creatine-Monohydrate-Unflavored/dp/B002DYIZEO/ref=sr_1_5?crid=1S382TW718C21&keywords=creatine+powder&qid=1550395000&s=gateway&sprefix=cret%2Caps%2C164&sr=8-5"
                     }
                 ],
@@ -61,14 +68,17 @@
                 "products": [
                     {
                         "name": "Dual Brush Pens",
+                        "ASID": "B0044JOS6K",
                         "link": "https://www.amazon.com/Tombow-Markers-Grayscale-10-Pack-Blendable/dp/B0044JOS6K/ref=sr_1_10?keywords=art+pens&qid=1550395156&s=gateway&sr=8-10"
                     },
                     {
                         "name": "Pencil case",
+                        "ASID": "B06XXZ7GNW",
                         "link": "https://www.amazon.com/Pencil-Coofit-Holder-Cosmetic-Pouch/dp/B06XXZ7GNW/ref=sr_1_8?keywords=pen+bag&qid=1550395223&s=gateway&sr=8-8"
                     },
                     {
                         "name": "Muji Notebooks",
+                        "ASID": "B00I6Y0MH8",
                         "link": "https://www.amazon.com/MUJI-Notebook-6mm-Rule-30sheets/dp/B00I6Y0MH8/ref=sr_1_5?keywords=muji+notebooks&qid=1550395298&s=gateway&sr=8-5"
                     }
                 ],

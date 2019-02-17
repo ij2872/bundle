@@ -1,6 +1,10 @@
 
 
 
+.Bundle{
+    margin: 50px 0px;
+    font-family: 'Archivo', sans-serif;
+}
 
 .bundle-info-container{
     /* border: solid red 2px; */
@@ -26,6 +30,8 @@
     margin-top: 0;
     margin: 0px;
     margin-bottom: 8px;
+    font-size: 2.5rem;
+    /* font-weight: 900; */
 }
 .bundle-info-author{
     font-weight: 500;
@@ -55,22 +61,40 @@
     padding: 20px;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+    max-width: 350px;    
+    font-style: 'Cabin' sans-serif;
     /* border: solid red 2px; */
 }
 
 .bundle-info-buttons > button{
-    padding: 15px 40px;
+    
+    padding: 15px 25px;
     border: none;
     border-radius: 20px;
     font-weight: bolder;
     font-size: 1.3rem;
-    min-width: 185px;
+    min-width: 135px;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bundle-info-buttons > button > img{
+    margin-right: 5px;
+
 }
 .bundle-info-buttons > button:active{
    box-shadow: 0px 0px 5px black;
 }
 .bundle-info-buttons > button:focus{
     outline: 0;
+}
+
+.bundle-info-buy{
+    background: #A7DA65;
+}
+
+.bundle-info-info{
+    background: #FFDF61;
 }

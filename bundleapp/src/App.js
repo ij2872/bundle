@@ -7,6 +7,7 @@ import BundlePage  from './Components/BundlePage';
 import Home from './Components/Home'
 // import Bundle from './Components/Bundle'
 import Product from './Components/Product'
+import hamburgerMenu from './img/svg/hamburger-menu.svg'
 
 const routing = (
   <Router>
@@ -23,6 +24,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="nav">
+          <img src={hamburgerMenu} />
+        </div>
         {routing}
       </div>
     );

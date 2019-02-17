@@ -14,13 +14,13 @@ const Home = props => {
     <div>
       <header>
         <div>
-          <h1>Bundle</h1>
+          <h1 className="hero-text">Bundle</h1>
           <p>
             your setup, your bundle, <span>all in one click</span>
           </p>
           <button>get started</button>
         </div>
-        <div>
+        <div className="hero-image">
             <img src={heroIllustration} />
         </div>
       </header>

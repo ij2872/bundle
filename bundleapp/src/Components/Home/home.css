@@ -1,0 +1,15 @@
+header {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-text {
+    font-family: "Archivo", sans-serif;
+    font-size: 10rem;
+    transform: translateX(1.2rem);
+}
+
+.hero-image {
+    transform: translateX(-1.8rem);
+}

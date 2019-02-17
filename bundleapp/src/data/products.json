@@ -1,0 +1,48 @@
+{
+    "products": [
+        {
+            "product": {
+                "id": 0,
+                "link": "www.google.com",
+                "cost": 3.50,
+                "img": "https://images.unsplash.com/photo-1534412027333-5e25ba9074f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2041&q=80",
+                "catagory": ["art"],
+                "title": "Pencil",
+                "description": "This is a bundle design for artist who are starting out!",
+                "description_more": "This bundle includes many products that I use to this day. I've included [brand] as they are the......",
+                "is_popular": false                
+
+            }
+        },
+        {
+            "product": {
+                "id": 1,
+                "link": "www.google.com",
+                "cost": 3.50,
+                "img": "https://images.unsplash.com/photo-1534412027333-5e25ba9074f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2041&q=80",
+                "catagory": ["art"],
+                "title": "Pen",
+                "description": "This product is usefull for this and this.",
+                "description_more": "This product includes ..... and is compatible with...",
+                "is_popular": false                
+
+            }
+        },
+        {
+            "product": {
+                "id": 2,
+                "link": "www.google.com",
+                "cost": 3.50,
+                "img": "https://images.unsplash.com/photo-1534412027333-5e25ba9074f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2041&q=80",
+                "catagory": ["art"],
+                "title": "Paper",
+                "description": "This product is usefull for this and this.",
+                "description_more": "This product includes ..... and is compatible with...",
+                "is_popular": false                
+
+            }
+        }
+
+
+    ]
+}
